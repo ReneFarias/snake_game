@@ -28,3 +28,39 @@ body {
 .food {
     background-color: #d84242;
 }
+
+.controle {
+    flex-direction: column;
+    position: relative;
+    align-items: end;
+    justify-content: end;
+}
+
+.btreset {
+    position: relative;
+    color: white;
+    background-color: red;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 5px;
+    width: 70px;
+    height: 30px;
+    border-radius: 20rem;
+    border: none;
+}
+
+#myBtn {
+    position: relative;
+    color: white;
+    background-color: green;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 5px;
+    margin-left: 12px;
+    width: 50px;
+    height: 30px;
+    border-radius: 20rem;
+    border: none;
+}

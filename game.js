@@ -43,3 +43,12 @@ function draw() {
 function checkDeath() {
     gameOver = outsideGrid(getSnakeHead()) || snakeIntersaction()
 }
+document.addEventListener('keydown',botao.which = 37);
+
+const botao = document.getElementById("myBtn")
+
+botao.addEventListener("click", botao.which = 37)
+
+var botao2 = jQuery.Event ("keypress"); 
+botao.ctrlKey = false; 
+botao.which = 37; 
